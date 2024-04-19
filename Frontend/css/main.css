@@ -11,6 +11,8 @@
 img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #hero_nav {
@@ -56,4 +58,7 @@ img {
   .container_nav {
     width: 95%;
   }
+}
+.carousel_image {
+  height: 100vh;
 }/*# sourceMappingURL=main.css.map */
