@@ -1,0 +1,103 @@
+#hero_footer{
+   background-color: #4d4d4d; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url("https://imgs.stargazete.com/imgsdisk/2023/05/31/galatasaray-5-yildizi-ne--517_2.jpg");
+   background-size: cover;
+   background-position: center;
+}
+.hero_footer_container{
+   width: 70%;
+   display: flex;
+   
+   justify-content: space-between;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.item1_img{
+   background-size: cover;
+   background-position: center;
+   width: 40px;
+   height: 40px;
+   border-radius: 50px;
+   background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iRNmpEC3fbmo/v1/1200x800.jpg");
+}
+.hero_footer_container_item1_item1{
+   h3{
+      font-size: 15px;
+      color: #ffffff;
+   }
+   p{
+      font-size: 12px;
+      color: #999999;
+   }
+   p:hover{
+      color: #f23a2e;
+      transition: 1s;
+      cursor: pointer;
+   }
+}
+.list{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.container_info{
+   a:hover{
+      color: #f23a2e;
+      transition: 1s;
+   }
+}
+.hero_footer_container_item1_item2{
+   .item2_p{
+      font-size: 15px;
+      color: #ffffff;
+   }
+  .item2_div{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+   }
+}
+.items_list{
+   display: flex;
+   gap: 15px;
+   a{
+      font-size: 10px;
+      color: #999999;
+   }
+   a:hover{
+      color: #f23a2e;
+      transition: 1s;
+   }
+   ol{
+      padding-left: 0px;
+   }
+}
+.hero_footer_container_item2_item1{
+   p{color: #ffffff;}
+}
+.hero_footer_container_item2_item2{
+   p{
+      color: #ffffff;
+   }
+}
+.container_icons{
+    i:hover{ color: #f23a2e;
+   transition: 1s;}
+    
+}
+.item2_div{
+   gap: 10px;
+   p{
+      margin-bottom: 0px;
+      color: #999999;
+      font-size: 14px;
+   }
+   p:hover{
+      color: #f23a2e;
+      transition: 1s;
+      cursor: pointer;
+   }
+}

@@ -1,3 +1,509 @@
 .carousel_image{
     height: 100vh;
 }
+
+.position_slider_img1{
+    background-image: url("https://i.gazeteoksijen.com/storage/files/images/2023/11/14/chp-super-kupa-finali-turkiyede-oynansin-et7y.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    
+}
+.position_slider_img2{
+    background-image: url("https://phantom-marca.unidadeditorial.es/7b083c0b15b756f163637c2268e180c8/resize/828/f/jpg/assets/multimedia/imagenes/2021/07/11/16260319322052.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.position_slider_img3{
+    background-image: url("https://cdn1.ntv.com.tr/gorsel/TkCYive70EK3_nWmtdd80g.jpg?width=1060&height=795&mode=crop&scale=both&v=1709238550571&meta=square");
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.position_slider_img4{
+    background-image: url("https://cdn.ntvspor.net/1214c5871aff425c94e6ae561ff522bc.jpg?mode=crop&w=940&h=626");
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.position_slider_imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.position_slider{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    gap: 70px;
+}
+#position_sliders{
+    display: flex;
+    justify-content: center;
+}
+#hero_slider{
+      position: relative;
+}
+#position_sliders{
+    position:absolute;
+    left: 40px;
+    top: 400px;
+    width: 70%;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.imgs_p{
+    color: #FFFFFF;
+}
+// ////////////////
+#hero_card_info{
+    background-color: #FFFFFF;
+    min-height: 200px;
+    
+}
+.hero_card_info_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    gap: 10px;
+    position: absolute;
+    left: 130px;
+    top: 550px;
+}
+.hero_card_info_container_img1{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://cdn.ntvspor.net/aba44b85adee42e5866db2897f8a5d66.jpg?mode=crop&w=940&h=626");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero_card_info_container_img2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://assets.goal.com/images/v3/bltd44188e7611eace5/030424_Mauro_Icardi_of_Galatasaray_1920.jpg?auto=webp&format=pjpg&width=3840&quality=60");
+}
+.hero_card_info_container_img3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i.eurosport.com/2023/08/02/3755883-76407595-1600-900.jpg");
+}
+.hero_card_info_container_img1:hover{
+     width: 220px;
+     height:220px;
+     cursor: pointer;
+     transition: 0.5s;
+     .all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(116,13,13);
+background: linear-gradient(90deg, rgba(116,13,13,1) 0%, rgba(22,18,17,1) 100%, rgba(0,212,255,1) 100%);
+      opacity: 0.6;
+      height: 220px;
+      width: 220px;
+      transition: 0.5s;
+     }
+     
+}
+.hero_card_info_container_img2:hover{
+    width: 220px;
+    height:220px;
+    cursor: pointer;
+    transition: 0.5s;
+    .all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 220px;
+        background: rgb(116,13,13);
+        background: linear-gradient(90deg, rgba(116,13,13,1) 0%, rgba(22,18,17,1) 100%, rgba(0,212,255,1) 100%);
+              opacity: 0.6;
+              transition: 0.5s;
+     }
+}
+.hero_card_info_container_img3:hover{
+    width: 220px;
+    height:220px;
+    cursor: pointer;
+    transition: 0.5s;
+    .all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 220px;
+        background: rgb(116,13,13);
+        background: linear-gradient(90deg, rgba(116,13,13,1) 0%, rgba(22,18,17,1) 100%, rgba(0,212,255,1) 100%);
+              opacity: 0.6;
+              transition: 0.5s;
+     }
+}
+.hero_card_info_container_p1{
+    
+    font-size: 10px;
+    font-weight: bolder;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero_card_info_container_p2{
+    
+    font-size: 10px;
+    color: #6C757D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero_card_info_container_img_btn{
+    width: 100px;
+    
+    min-height: 20px;
+    background-color: #f23a2e;
+    color: #FFFFFF ;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.all{
+    display: none;
+}
+// /////////////////
+#hero_info_match{
+   
+    background-color: #F8f9fa;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero_info_match_container1{
+    margin-top: 30px;
+    width: 70%;
+    border: 0.5px solid #4d4d4d;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hero_info_match_container1_item2_img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.hero_info_match_container1_item1_p{
+    font-size: 10px;
+}
+.hero_big{
+    font-size: 20px;
+    color: black;
+}
+.hero_little{
+    font-size: 10px;
+    color: #4d4d4d;
+}
+.hero_info_match_container1_item1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10px;
+}
+.hero_info_match_container1_item2{
+    padding-right: 10px;
+}
+.hero_info_match_container2{
+    
+    width: 70%;
+    border: 0.5px solid #4d4d4d;
+    border-radius: 3px;
+    display: flex;
+    min-height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("https://img.goodfon.com/wallpaper/big/e/9b/wallpaper-sport-logo-football-galatasaray-4.webp");
+}
+.container2_all{
+    background-color: #eec60ae6;
+    opacity: 0.3;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+.hero_info_match_container2_item1{
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+    h3{
+        font-size: 15px;
+        color: #F8f9fa;
+    }
+    span{
+        font-size: 10px;
+        color: #F8f9fa;
+    }
+    display: flex;
+}
+.hero_info_match_container2_item3{
+    display: flex;
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+    h3{
+        color: #F8f9fa;
+        font-size: 15px;
+    }
+    span{
+        color: #F8f9fa;
+        font-size: 10px;
+    }
+}
+.hero_info_match_container2_item2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    span{
+        color: #F8f9fa;
+        font-size: 15px;
+    }
+    span{
+        color: #F8f9fa;
+        font-size: 10px;
+    }
+    div{
+        width: 50px;
+        height: 20px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#000000;
+    }
+}
+.hero_info_match_container3{
+    justify-content: start;
+    align-items: start;
+    width: 70%;
+    h2{
+        font-size: 12px;
+    }
+    a{
+        font-size: 8px;
+        font-weight: bold;
+        color: #6C757D;
+    }
+    a:hover{
+        font-size: 8px;
+        font-weight: bold;
+       color: #000000;
+       transition: 1s;
+       text-decoration: underline 1px solid #f23a2e;
+    }
+    ol{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+        padding-left: 0;
+    }
+}
+// /////////////
+.hero_info_match_container4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    border-bottom: 0.5px solid #4d4d4d;
+    img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+    }
+    background-color: #ffffff;
+
+}
+.hero_info_match_container4:hover{
+    cursor: pointer;
+      width: 75%;
+      transition: 1s;
+      -webkit-box-shadow: 2px -1px 5px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px -1px 5px 3px rgba(0,0,0,0.75);
+box-shadow: 2px -1px 5px 3px rgba(0,0,0,0.75);
+      
+}
+.hero_info_match_container4_item1{
+    display: flex;
+    h3{
+        font-size: 15px;
+    }
+    span{
+        font-size: 10px;
+    }
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.hero_info_match_container4_item2{
+    width: 40px;
+    height: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.hero_info_match_container4{
+    margin-bottom: 20px;
+}
+// ///////////////////////
+#hero_info_card_sec{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .hero_card_info_p{
+        margin-top: 20px;
+    }
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,39,1) 37%, rgba(255,0,39,1) 100%);
+}
+.card_sec_container{
+    width: 70%;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 40px;
+    gap: 10px;
+
+}
+.card_sec_container_items{
+    width: 200px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border: 1px solid #F8f9fa;
+    border-radius: 5px;
+    gap: 5px;
+    img:hover{
+        cursor: pointer;
+        transform: scale(1.1); 
+        transition: 1s;
+        
+
+    }
+    img{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    a{
+      color: #f23a2e;
+      font-size: 13px;
+     align-items: center;
+     padding-left: 3px;
+    }
+    span{
+        font-size: 10px;
+        color: #cccccc;
+        padding-left: 3px;
+    }
+    p{
+        font-size: 12px;
+        color: #4d4d4d;
+        margin-bottom: 0px;
+        padding-left: 3px;
+    }
+}
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+body {
+  background-color: #010;
+}
+
+.title {
+  font-family: "Cairo";
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  line-height:2
+}
+
+h1 {
+ 
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 10px 0;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+/* styling my button */
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #FFF;
+  transition: .35s ease-in-out;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-family: "Montserrat";
+}
+
+.white-mode:hover {
+  background-color: #FFF;
+  color: #122;
+}

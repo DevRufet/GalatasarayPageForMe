@@ -1,0 +1,110 @@
+#hero_team{
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team_container{
+    width: 70%;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+}
+.team_h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.team_container_player{
+    background-image: url("https://hlkiurt3.rocketcdn.com/profiles/b13b9abd2c5e41a1a6d69d21e2bb2cce.jpeg");
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+}
+.team_container_players{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 7px;
+    p{
+        color: #4d4d4d;
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+    span{
+        color: #3c3c3c;
+        font-size: 15px;
+    }
+}
+#hero_highlits{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+}
+.hero_highlits_container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#hero_about{
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_about_containers{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.hero_about_container_item1{
+    
+    object-fit: cover;
+    width: 50%;
+    height: 200px;
+}
+.hero_about_container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+.hero_about_container_item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    h3{
+        font-size: 20px;
+    }
+    span{
+        color: #4d4d4d;
+        font-size: 10px;
+    }
+    p{
+        color: #4d4d4d;
+        font-size: 10px;
+    }
+}
